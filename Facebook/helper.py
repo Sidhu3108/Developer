@@ -16,3 +16,5 @@ def webdriver_browser(browser = "CHROME"):
             driver = webdriver.Edge(service = EdgeService(EdgeChromiumDriverManager().install()))
     driver.maximize_window()
     return driver
+
+print("XYZ")

@@ -36,3 +36,5 @@ def test_sinup():
         print("Element not foundy")
     except AssertionError:
         print("element not enabled")
+
+        print("XYZ")
