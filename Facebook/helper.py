@@ -6,7 +6,7 @@ import time
 import test_data
 import test_pom
 
-def load_Browser():
-    global driver
+def test_load_Browser():
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
     driver.maximize_window()
+    driver.close()
