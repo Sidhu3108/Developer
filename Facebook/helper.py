@@ -10,3 +10,4 @@ def load_Browser():
     global driver
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
     driver.maximize_window()
+    time.sleep(2)
