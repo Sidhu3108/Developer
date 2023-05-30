@@ -11,3 +11,5 @@ def load_Browser():
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
     driver.maximize_window()
     time.sleep(2)
+
+    driver.close()
